@@ -5,15 +5,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>FactWorld</title>
+	<link rel="icon" href="FW logo.jpg">
+	<link rel="stylesheet" href="style.css">
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<style>
 	header{
-		background-color: rgb(65, 65, 255);
+		background-color:  rgb(164, 45, 243);
 	}
 	a.mr-5#mr-52{
 		/* text-decoration: underline; */
 		font-weight: bold;
 		font-size: 18px;
+	}
+	a#back{
+		margin-left: 70%;
 	}
 	</style>
 </head>
@@ -28,14 +33,14 @@
 			</img>
 			<span class="ml-3 text-xl">FactWorld</span>
 		  </a>
-		  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+		  <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center" id="nav">
 			<a class="mr-5 hover:text-gray-900" href="index.html" id="mr-51">Home</a>
 			<a class="mr-5 hover:text-gray-900" href="new.html" id="mr-52">New</a>
 			<a class="mr-5 hover:text-gray-900" href="fact.html" id="mr-54">Facts</a>
 			<a class="mr-5 hover:text-gray-900" href="about.html" id="mr-53">About Us</a>
 			
 		  </nav>
-		  <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Feedback
+		  <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Log In
 			<svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
 			  <path d="M5 12h14M12 5l7 7-7 7"></path>
 			</svg>
@@ -128,6 +133,8 @@
 				</div>
 			  </div>
 		  </div>
+		  <br><br>
+		  <a class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0" href="index.html" id="back">Home</a>
 		</div>
 	  </section>
 </body>
